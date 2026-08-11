@@ -47,6 +47,7 @@ knifeList = [
 axeList = [
     "minecraft:wooden_axe",
     "minecraft:stone_axe",
+    "minecraft:copper_axe",
     "minecraft:iron_axe",
     "minecraft:golden_axe",
     "minecraft:diamond_axe",
