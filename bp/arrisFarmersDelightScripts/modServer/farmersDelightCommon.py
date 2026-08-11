@@ -191,7 +191,7 @@ def OnEntityDieLoottableCommon(args):
     if entityName == "minecraft:player":
         entityName = compFactory.CreateEngineType(dieEntityId).GetEngineTypeStr()
         handItemDict = compFactory.CreateItem(attackerId).GetPlayerItem(serverApi.GetMinecraftEnum().ItemPosType.CARRIED, 0)
-        if handItemDict and handItemDict["newItemName"] in knifeList:
+        if handItemDict and IsKnife(handItemDict["newItemName"]):
             itemList = args["itemList"]
             if entityName in ["minecraft:cow", "minecraft:chicken"]:
                 for index in range(0, len(itemList)):
