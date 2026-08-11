@@ -104,6 +104,13 @@ def GetItemType(itemDict):
     else:
         return None
 
+def IsKnife(itemName):
+    # 兼容配置内显式登记的刀具和跨附加包提供的刀具标签
+    if itemName in knifeList:
+        return True
+    itemTags = compFactory.CreateItem(levelId).GetItemTags(itemName)
+    return "arris:knife" in (itemTags or [])
+
 def DetectionExperimentalHoliday():
     # 检测是否为假日创造者模式
     gameRules = compFactory.CreateGame(levelId).GetGameRulesInfoServer()

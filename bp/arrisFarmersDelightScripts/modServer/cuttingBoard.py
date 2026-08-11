@@ -44,7 +44,10 @@ def OnServerCuttingBoardBlockUse(args):
             result = CuttingBoardDict.get((cuttingDict["newItemName"], cuttingDict["newAuxValue"]))
             if not result:
                 return
-            if carriedDict["newItemName"] in result["tool"]:
+            toolList = result["tool"]
+            itemName = carriedDict["newItemName"]
+            isToolType = result.has_key("item_type") and itemType == result.get("item_type", None)
+            if itemName in toolList or isToolType or IsKnife(itemName):
                 for resultDict in result["itemList"]:
                     System.CreateEngineItemEntity(resultDict, dimensionId, (x + 0.5, y + 0.5, z + 0.5))
                 DestroyEntity(displayEntityId)

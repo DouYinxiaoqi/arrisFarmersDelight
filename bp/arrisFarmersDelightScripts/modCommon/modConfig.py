@@ -47,6 +47,7 @@ knifeList = [
 axeList = [
     "minecraft:wooden_axe",
     "minecraft:stone_axe",
+    "minecraft:copper_axe",
     "minecraft:iron_axe",
     "minecraft:golden_axe",
     "minecraft:diamond_axe",
@@ -78,18 +79,18 @@ CuttingBoardDict = {
     ("arris:kelp_roll", 0): {"itemList": [{"itemName": "arris:kelp_roll_slice", "count": 3}], "tool": knifeList},
     ("arris:sweet_berry_cheesecake_item", 0): {"itemList": [{"itemName": "arris:sweet_berry_cheesecake_slice", "count": 4}], "tool": knifeList},
     ("arris:rice_panicle", 0): {"itemList": [{"itemName": "arris:rice", "count": 1}, {"itemName": "arris:straw", "count": 1}], "tool": knifeList},
-    ("minecraft:oak_log", 0): {"itemList": [{"itemName": "minecraft:stripped_oak_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:spruce_log", 0): {"itemList": [{"itemName": "minecraft:stripped_spruce_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:acacia_log", 0): {"itemList": [{"itemName": "minecraft:stripped_acacia_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:birch_log", 0): {"itemList": [{"itemName": "minecraft:stripped_birch_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:cherry_log", 0): {"itemList": [{"itemName": "minecraft:stripped_cherry_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:dark_oak_log", 0): {"itemList": [{"itemName": "minecraft:stripped_dark_oak_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:jungle_log", 0): {"itemList": [{"itemName": "minecraft:stripped_jungle_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:mangrove_log", 0): {"itemList": [{"itemName": "minecraft:stripped_mangrove_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:crimson_stem", 0): {"itemList": [{"itemName": "minecraft:stripped_crimson_stem", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:crimson_hyphae", 0): {"itemList": [{"itemName": "minecraft:stripped_crimson_hyphae", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:warped_stem", 0): {"itemList": [{"itemName": "minecraft:stripped_warped_stem", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList},
-    ("minecraft:warped_hyphae", 0): {"itemList": [{"itemName": "minecraft:stripped_warped_hyphae", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList}
+    ("minecraft:oak_log", 0): {"itemList": [{"itemName": "minecraft:stripped_oak_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:spruce_log", 0): {"itemList": [{"itemName": "minecraft:stripped_spruce_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:acacia_log", 0): {"itemList": [{"itemName": "minecraft:stripped_acacia_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:birch_log", 0): {"itemList": [{"itemName": "minecraft:stripped_birch_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:cherry_log", 0): {"itemList": [{"itemName": "minecraft:stripped_cherry_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:dark_oak_log", 0): {"itemList": [{"itemName": "minecraft:stripped_dark_oak_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:jungle_log", 0): {"itemList": [{"itemName": "minecraft:stripped_jungle_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:mangrove_log", 0): {"itemList": [{"itemName": "minecraft:stripped_mangrove_log", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:crimson_stem", 0): {"itemList": [{"itemName": "minecraft:stripped_crimson_stem", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:crimson_hyphae", 0): {"itemList": [{"itemName": "minecraft:stripped_crimson_hyphae", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:warped_stem", 0): {"itemList": [{"itemName": "minecraft:stripped_warped_stem", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"},
+    ("minecraft:warped_hyphae", 0): {"itemList": [{"itemName": "minecraft:stripped_warped_hyphae", "count": 1}, {"itemName": "arris:tree_bark", "count": 1}], "tool": axeList, "item_type": "axe"}
 }
 # 可堆肥的物品
 ComposterItemDict = {

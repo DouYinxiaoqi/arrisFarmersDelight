@@ -1,19 +1,19 @@
 {
-    "format_version": "1.10",
-    "minecraft:item": {
-        "components": {
-            "minecraft:max_damage": 30,
-            "minecraft:max_stack_size": 1,
-            "netease:weapon": {
-                "attack_damage": 3,
-                "level": 0,
-                "type": "sword"
-            }
-        },
-        "description": {
-            "category": "arris_farmers_delight",
-            "identifier": "arris:flint_knife",
-            "register_to_create_menu": true
-        }
+  "format_version": "1.10",
+  "minecraft:item": {
+    "components": {
+      "minecraft:max_damage": 30,
+      "minecraft:max_stack_size": 1,
+      "netease:weapon": {
+        "attack_damage": 3,
+        "level": 0,
+        "type": "sword"
+      }
+    },
+    "description": {
+      "category": "arris_farmers_delight",
+      "identifier": "arris:flint_knife",
+      "register_to_create_menu": true
     }
+  }
 }
