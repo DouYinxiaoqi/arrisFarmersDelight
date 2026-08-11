@@ -109,6 +109,7 @@ def IsKnife(itemName):
     if itemName in knifeList:
         return True
     itemTags = compFactory.CreateItem(levelId).GetItemTags(itemName)
+    print(itemTags)
     return "arris:knife" in (itemTags or [])
 
 def DetectionExperimentalHoliday():
